@@ -1,0 +1,7 @@
+kind,reservoirId,zoneId,sampledAt,intervalStart,receivedAt,value,unit,quality,revisionOf,uncertainty,note
+rainfall,,z2,2026-07-15T06:00:00.000Z,2026-07-15T05:00:00.000Z,2026-07-15T08:00:00.000Z,6,mm,confirmed,,0.5,通信中断后补传的迟到雨量
+inflow,bs,,2026-07-15T04:00:00.000Z,,,MISSING,m3/s,missing,,,,入库断面设备故障显式缺失
+water_level,qx,,2026-07-15T02:00:00.000Z,,,107.42,m,suspect,,,0.05,人工校测疑似偏差
+diversion_in,qx,,2026-07-15T01:00:00.000Z,,,20,m3/s,confirmed,,,,跨库调入
+diversion_out,bs,,2026-07-15T01:00:00.000Z,,,10,m3/s,confirmed,,,,跨库调出
+evaporation,xl,,2026-07-15T01:00:00.000Z,2026-07-15T00:00:00.000Z,,0.1,mm,confirmed,,,0.1,蒸发区间累计
